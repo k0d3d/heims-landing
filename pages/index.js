@@ -18,9 +18,13 @@ export default function Home() {
         </p>
 
         <div className="grid">
+          <a href="https://folder-app-api-docs-89ms.vercel.app/" className="card">
+            <h3>View API Docs &rarr;</h3>
+            <p>Take a look at the Documentation for the REST API.  </p>
+          </a>
           <a href="https://mighty-dusk-83763.herokuapp.com/" className="card">
             <h3>View Demo Application &rarr;</h3>
-            <p>Try this sample AngularJs inventory app that uses Heims as a backend. You can test drive the REST API.  </p>
+            <p>Try this sample AngularJs inventory app that uses Heims as a backend.  </p>
           </a>
 
 
