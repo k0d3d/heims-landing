@@ -11,10 +11,7 @@ export function Header() {
           <div className="menu-bar">
             <ul className="d-flex align-items-center justify-content-between">
               <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="author.html">Authors</a>
+                <a href="/">Home</a>
               </li>
             </ul>
           </div>

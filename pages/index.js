@@ -1,7 +1,6 @@
 import Head from "next/head";
 import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
-import { MainLayout } from "../components/PageLayout";
 import { PageBanner } from "../components/PageBanner";
 
 export default function Home() {

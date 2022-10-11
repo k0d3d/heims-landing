@@ -3,7 +3,7 @@ export function PageBanner() {
     <div
       className="card-banner-area checkout-bg dark-overlay"
       style={{
-        backgroundImage: "url(assets/img/checkout-bg.jpg)",
+        backgroundImage: "url(/assets/img/checkout-bg.jpg)",
       }}
     >
       <div className="container">

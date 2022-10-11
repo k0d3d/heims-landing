@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Script from "next/script";
-import { Footer } from "../Footer";
-import { Header } from "../Header";
-import { MainLayout } from "../MainLayout";
-import { PageBanner } from "../PageBanner";
+import { Footer } from "../../components/Footer";
+import { Header } from "../../components/Header";
+import { MainLayout } from "../../components/PageLayout";
+import { PageBanner } from "../../components/PageBanner";
 
 export default function Home() {
   return (
