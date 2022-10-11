@@ -1,0 +1,31 @@
+.card-container {
+	align-items: start;
+	display: grid;
+	grid-gap: 16px;
+	grid-template-columns: repeat(auto-fit, 300px);
+	justify-content: center;
+  min-height: 40vh;
+  margin: 3rem 0;
+}
+
+
+.card {
+	border-radius: 5px;
+	color: white;
+	padding: 24px 0 16px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #555;
+}
+
+.card a {
+  outline: none;
+  border: none;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.header-wrapper {
+  margin: 20px 0;
+}

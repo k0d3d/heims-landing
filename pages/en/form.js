@@ -1,0 +1,27 @@
+import Head from "next/head";
+import Script from "next/script";
+import { Footer } from "../Footer";
+import { Header } from "../Header";
+import { MainLayout } from "../MainLayout";
+import { PageBanner } from "../PageBanner";
+
+export default function Home() {
+  return (
+    <>
+      {/* header area start from here*/}
+      {/* header area start from here*/}
+      <Header></Header>
+      <PageBanner></PageBanner>
+      <MainLayout>
+        <div className="leform-inline" data-id="6"></div>
+      </MainLayout>
+      <Footer></Footer>
+      <Script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></Script>
+      <Script
+        id="leform-remote"
+        src="https://forms.storkippa.com.ng/content/plugins/halfdata-green-forms/js/leform.min.js?ver=1.4"
+        data-handler="https://forms.storkippa.com.ng/ajax.php"
+      ></Script>
+    </>
+  );
+}
