@@ -25,7 +25,7 @@ export default function Home() {
         </div>
 
         <div className="card">
-          <a href="https://mighty-dusk-83763.herokuapp.com/" className="card">
+          <a href="http://angular-demo.storkippa.com/" className="card">
             <h3>View Demo Application &rarr;</h3>
             <p>
               Try this sample AngularJs inventory app that uses Heims as a
